@@ -1,6 +1,4 @@
 User-agent: *
-Disallow: /projects/*
-Allow: /projects$
-Allow: /projects/$
+Allow: /
 
-Sitemap: https://aidardev.github.io/sitemap.xml
+Sitemap: https://aidardev.com/sitemap.xml
