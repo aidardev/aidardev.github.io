@@ -35,13 +35,49 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "url": "https://aidardev.com/",
-      "name": "Aidar Hasenov — Web Developer",
-      "author": {
-        "@type": "Person",
-        "name": "Aidar Hasenov"
-      }
+      "@graph": [{
+          "@type": "Person",
+          "@id": "https://aidardev.com/#person",
+          "name": "Aidar Hasenov",
+          "alternateName": [
+            "Айдар Хасенов",
+            "AidarDev",
+            "aidardev"
+          ],
+          "jobTitle": "Web Developer",
+          "description": "Web developer Aidar Hasenov (AidarDev). I build fast, high-performing, and responsive websites from concept to launch for businesses worldwide.",
+          "url": "https://aidardev.com/",
+          "image": "https://aidardev.com/images/og-default.jpg",
+          "email": "mailto:helloaidardev@gmail.com",
+          "sameAs": [
+            "https://github.com/aidardev/",
+            "https://t.me/aidardev01",
+            "https://www.instagram.com/aidardev/",
+            "https://x.com/aidardev",
+            "https://www.threads.net/@aidardev",
+            "https://www.linkedin.com/in/aidardev/",
+            "https://www.facebook.com/aidarDev/"
+          ],
+          "knowsAbout": [
+            "Web Development",
+            "Frontend Development",
+            "WordPress",
+            "React",
+            "JavaScript",
+            "SEO"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://aidardev.com/#website",
+          "url": "https://aidardev.com/",
+          "name": "AidarDev — Professional Web Development Services",
+          "publisher": {
+            "@id": "https://aidardev.com/#person"
+          },
+          "inLanguage": "en"
+        }
+      ]
     }
   </script>
 
